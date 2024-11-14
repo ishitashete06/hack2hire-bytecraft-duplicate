@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about">
       <h1>About FreelanceHub</h1>
-      <h3>This is a project made for Hack2Hire Hackathon by SkillMingle</h3>
+      <h3>This is a project made for Hack2Hire Hackathon by Team Byte Craft</h3>
       <p>
         <strong>FreelanceHub</strong> is a freelancing platform designed to connect clients with top-tier freelancers. 
         Our platform aims to make freelancing easy, efficient, and secure with a range of innovative features:
