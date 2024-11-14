@@ -7,19 +7,25 @@ import '../styles/SkillDevelopment.css';
 
 function SkillDevelopment() {
   const AdvanceWebDevCourse = () => {
-    window.open('https://www.youtube.com/watch?v=Q-icS7yZz5k'); 
+    window.open('https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&si=_t9NnARer_npaU9n'); 
   };
-  const frontEndDev = () =>{
-    window.open = '';
+  const FrontEndDev = () =>{
+    window.open('https://youtu.be/zJSY8tbf_ys?si=DAZo0KivDpWbr5i8');
+  }
+  const BackEndDev = () => {
+    window.open('https://www.youtube.com/watch?v=Q-icS7yZz5k');
+  }
+  const MongoBasics = () => {
+    window.open('https://youtu.be/ofme2o29ngU?si=cDiQq_dRV8aDSIWC');
   }
 
   return (
     <div className="skill-development">
       <h1>Skill Development</h1>
       <button className="skill-card" onClick={AdvanceWebDevCourse}>Advanced Web Development</button>
-      <button className="skill-card" onClick={AdvanceWebDevCourse}>Front End Development</button>
-      <button className="skill-card" onClick={AdvanceWebDevCourse}>Back End Development</button>
-      <button className="skill-card" onClick={AdvanceWebDevCourse}>MongoDB Basics</button>
+      <button className="skill-card" onClick={FrontEndDev}>Front End Development</button>
+      <button className="skill-card" onClick={BackEndDev}>Back End Development</button>
+      <button className="skill-card" onClick={MongoBasics}>MongoDB Basics</button>
 
     </div>
   );

@@ -2,6 +2,7 @@
 .skill-development {
   width: 100%;
   max-width: 1200px;
+  align-items: center;
 }
 
 .skills {
@@ -16,6 +17,7 @@
   background-color: #ffa985;
   padding: 40px;
   border-radius: 8px;
+  align-items: center;
   width: 270px;
   height:250px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
