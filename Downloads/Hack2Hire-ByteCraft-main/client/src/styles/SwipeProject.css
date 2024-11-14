@@ -1,0 +1,17 @@
+/* src/styles/SwipeProject.css */
+.swipe-project {
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  background-color: #FFF7D0;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 60%;
+  min-width: 300px;
+}
