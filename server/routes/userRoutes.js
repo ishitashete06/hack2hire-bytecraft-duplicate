@@ -17,7 +17,7 @@ const { signupUser, signinUser } = require('../controllers/userController');
 const router = express.Router();
 // Import the controller function
 
-const { signupUser } = require('../controllers/userController');
+//const { signupUser } = require('../controllers/userController');
 
 
 
