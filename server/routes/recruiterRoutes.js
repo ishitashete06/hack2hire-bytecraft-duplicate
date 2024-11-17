@@ -7,3 +7,4 @@ router.post('/signup', signupRecruiter);
 router.post('/signin', signinRecruiter);
 
 module.exports = router;
+
